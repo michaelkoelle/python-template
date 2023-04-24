@@ -102,4 +102,4 @@ Slurm is an open-source, highly scalable, and fault-tolerant cluster management 
 
 #### 💬 Questions or Improvements?
 
-Hit me up: [michael.koelle@ifi.lmu.de](mailto:michael.koelle@ifi.lmu.de)
+Create a [issue](https://github.com/michaelkoelle/python-template/issues) or hit me up: [michael.koelle@ifi.lmu.de](mailto:michael.koelle@ifi.lmu.de)
