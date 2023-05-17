@@ -18,8 +18,7 @@ I strongly recommend to use this template in combination with VSCode
 
 #### 🚀 How to use it:
 
-- Create a new repository on gitlab and clone it using VSCode. (Go to the `Source Control` tab and click on Clone Repository)
-- Download this repository as .zip and extract/overwrite the files in your project repository.
+- Clone this repository it using VSCode (Go to the `Source Control` tab and click on Clone Repository) or via the command line: `git clone https://github.com/michaelkoelle/python-template.git`. Change the directory `cd python-template`. Remove the old origin `git remote remove origin`. Create a new repository on github or gitlab. Then, use e.g. `git remote add origin https://github.com/<your-username>/<your-repo>.git` to add you new repository as origin. Finally, push your changes `git push -u origin main`. You can now also rename the folder if you want. Alternatively you can create a new repository, clone it and then download this repository as .zip and extract/overwrite the files in your project repository.
 - Install the recommened extensions (there should be a pop up), otherwise type `CTRL+SHIFT+P` and search for `Show Recommended Extensions`.
 - If you use pyenv, make sure you have a python version installed, otherwise install one: `pyenv install 3.10`
 - Create a new virtual python environment using pyenv: `pyenv virtualenv env` and `pyenv activate env`. This is where your dependencies will be installed.
