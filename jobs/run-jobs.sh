@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 
 # Specify hyperparameters
 runs=20
