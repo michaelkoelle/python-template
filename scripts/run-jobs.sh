@@ -18,9 +18,9 @@ for dataset in ${datasets[@]}; do
         for seed in $(seq 0 $(($runs-1))); do
             if [ -z "$sbatch_cmd" ]; then
                 echo "\033[1;32mExecuting job with environment variables:\033[0m -d $dataset -a $approach -s $seed"
-                ./jobs/job.sh -d $dataset -a $approach -s $seed -e $epoch
+                ./scripts/job.sh -d $dataset -a $approach -s $seed -e $epoch
             else
-                $sbatch_cmd --job-name="run-$dataset-$approach-$seed" jobs/job.sh -d $dataset -a $approach -s $seed
+                $sbatch_cmd --job-name="run-$dataset-$approach-$seed" scripts/job.sh -d $dataset -a $approach -s $seed
             fi
         done
     done
