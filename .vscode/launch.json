@@ -3,7 +3,7 @@
   "configurations": [
     {
       "name": "Run",
-      "type": "python",
+      "type": "debugpy",
       "request": "launch",
       "program": "${workspaceFolder}/src/main.py",
       "args": [] // Insert arguments here
