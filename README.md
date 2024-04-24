@@ -51,7 +51,7 @@ I recommend using the Source Control tab of VSCode, here you can see all the cha
 
 #### 📊 Slurm:
 
-- Login to on of the nodes of the Slurm cluster. (e.g. `<user>@remote.cip.ifi.lmu.de`), I recommend using the VSCode Remote Extension.
+- Login to on of the nodes of the Slurm cluster. (e.g. `<cip-kennung>@remote.cip.ifi.lmu.de`), I recommend using the VSCode Remote Extension.
 - Make sure pyenv is installed and ready to use. `pyenv -v`
 - If you do not already have a python version installed with pyenv use e.g. `pyenv install 3.10` and specify the correct version for your project
 - Clone the repository.
