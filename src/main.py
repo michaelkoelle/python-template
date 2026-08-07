@@ -1,8 +1,8 @@
 """Main python file."""
 
 
-def main():
-    """Main entrypoint of the program."""
+def main() -> None:
+    """Run the program."""
     print("Hello World!")
 
 

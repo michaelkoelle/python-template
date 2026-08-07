@@ -11,7 +11,14 @@ dev = ["ruff"]
 [tool.ruff]
 line-length = 99  
 lint.select = ["ALL", "E402"]  
-lint.ignore = ["D100"] 
+lint.ignore = [
+  "D100",   # undocumented-public-module: module docstrings not required
+  "D203",   # incorrect-blank-line-before-class: conflicts with D211
+  "D213",   # multi-line-summary-second-line: conflicts with D212
+  "COM812", # missing-trailing-comma: conflicts with the formatter
+  "CPY001", # missing-copyright-notice: no copyright header in this template
+  "T201",   # print: print() is intentional here
+]
 lint.extend-select = ["I"] 
 fix = true
 
